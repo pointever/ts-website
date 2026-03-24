@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" aria-hidden="true">
+  <rect width="1024" height="1024" fill="#ffffff"/>
+  <text
+    x="512"
+    y="470"
+    text-anchor="middle"
+    font-family="Snell Roundhand, 'Apple Chancery', 'Segoe Script', 'Brush Script MT', 'Lucida Handwriting', cursive"
+    font-size="210"
+    font-weight="700"
+    fill="#4169e1"
+  >Table</text>
+  <text
+    x="512"
+    y="655"
+    text-anchor="middle"
+    font-family="Snell Roundhand, 'Apple Chancery', 'Segoe Script', 'Brush Script MT', 'Lucida Handwriting', cursive"
+    font-size="210"
+    font-weight="700"
+    fill="#4169e1"
+  >Service</text>
+</svg>

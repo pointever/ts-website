@@ -16,4 +16,6 @@ Static site for **https://tableservice.app**: landing page, Terms of Service, Pr
 - `terms.html` — Terms of Service
 - `privacy.html` — Privacy Policy
 - `privacy-choices.html` — User privacy choices
-- `ts-logo.svg`, `CNAME`, `.nojekyll`
+- `app-icon.svg` — home page logo (matches iOS app icon artwork)
+- `ts-logo.svg` — horizontal wordmark (optional / legacy URLs)
+- `CNAME`, `.nojekyll`
