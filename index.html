@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Table Service — Menu scan & AI recommendations</title>
+  <meta name="description" content="Table Service Menu AI on the App Store for iPhone & iPad. Menu scan and AI recommendations — choose better at the table.">
+  <title>Table Service Menu AI — Menu scan &amp; AI recommendations</title>
   <style>
     body { font-family: Georgia, 'Times New Roman', serif; margin: 0; padding: 48px 24px; line-height: 1.6; color: #1a1a1a; background: #f4efe6; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; box-sizing: border-box; }
     .wrap { max-width: 480px; text-align: center; }
@@ -17,12 +18,22 @@
       margin: 0 auto;
       box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
     }
+    h1 { font-size: 1.5rem; font-weight: 600; margin: 0 0 8px; color: #1a1a1a; }
     .tagline { color: #5c5c5c; font-size: 1rem; margin: 0 0 32px; }
     .links { display: flex; flex-wrap: wrap; gap: 12px 20px; justify-content: center; }
     .links a { color: #1a1a1a; text-decoration: none; font-size: 0.95rem; border-bottom: 1px solid #1a1a1a; }
     .links a:hover { opacity: 0.8; }
-    .app-link { margin: 24px 0 8px; }
-    .app-link a { font-size: 1rem; }
+    .app-store-row { margin: 24px 0 12px; }
+    .app-store-badge {
+      display: inline-block;
+      padding: 10px 14px;
+      background: #1a1a1a;
+      border-radius: 8px;
+      line-height: 0;
+    }
+    .app-store-badge a { border-bottom: none; display: inline-block; }
+    .app-store-badge img { height: 40px; width: auto; vertical-align: middle; display: block; }
+    .app-store-caption { margin: 12px 0 0; font-size: 0.85rem; color: #5c5c5c; }
     .copyright { margin-top: 32px; color: #5c5c5c; font-size: 0.8rem; }
   </style>
   <!-- Privacy Consent by TermsFeed.com -->
@@ -34,9 +45,16 @@
     <div class="logo">
       <img src="app-icon.svg" alt="Table Service Menu AI" width="112" height="112">
     </div>
-    <p class="tagline">Menu scan & AI recommendations — choose better at the table.</p>
-    <!-- Replace # with your App Store link when live, e.g. https://apps.apple.com/app/idXXXXXXXXX -->
-    <p class="app-link"><a href="#">Download on the App Store</a></p>
+    <h1>Table Service Menu AI</h1>
+    <p class="tagline">Menu scan &amp; AI recommendations — choose better at the table.</p>
+    <div class="app-store-row">
+      <div class="app-store-badge">
+        <a href="https://apple.co/48fxXFE" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">
+          <img src="download-on-the-app-store-white.svg" alt="Download on the App Store" width="120" height="40" decoding="async">
+        </a>
+      </div>
+      <p class="app-store-caption">Available on the App Store for iPhone &amp; iPad.</p>
+    </div>
     <nav class="links">
       <a href="terms.html">Terms of Service</a>
       <a href="privacy.html">Privacy Policy</a>
